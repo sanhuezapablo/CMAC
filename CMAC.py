@@ -7,8 +7,8 @@ from scipy.interpolate import interp1d
 
 # Weights
 W = 35
-LR = 0.00015
-epochs = 9000
+LR = 0.0015
+epochs = 1000
 
 
 X = np.linspace(0, 1.5, 100) #Evenly spaced points
